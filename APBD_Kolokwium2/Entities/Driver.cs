@@ -4,7 +4,7 @@ namespace APBD_Kolokwium2.Entities;
 
 public class Driver
 {
-    public int Driverid { get; set; }
+    public int DriverId { get; set; }
 
     [MaxLength(100)] 
     public string FirstName { get; set; } = null!;

@@ -62,9 +62,9 @@ public class AppDbContext : DbContext
         modelBuilder.Entity<Driver>(entity =>
             {
                 entity.ToTable("Driver");
-                entity.HasKey(e => e.Driverid);
+                entity.HasKey(e => e.DriverId);
 
-                entity.Property(e => e.Driverid)
+                entity.Property(e => e.DriverId)
                     .HasColumnName("driver_id");
                 
                 entity.Property(e => e.FirstName)
