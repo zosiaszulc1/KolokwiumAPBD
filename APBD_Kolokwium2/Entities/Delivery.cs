@@ -2,9 +2,9 @@ namespace APBD_Kolokwium2.Entities;
 
 public class Delivery
 {
-    public int Deliveryid { get; set; }
-    public int Customerid { get; set; }
-    public int Driverid { get; set; }
+    public int DeliveryId { get; set; }
+    public int CustomerId { get; set; }
+    public int DriverId { get; set; }
     public DateTime Date { get; set; }
     public Customer Customer { get; set; } = null!;
     public Driver Driver { get; set; } = null!;

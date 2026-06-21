@@ -4,7 +4,7 @@ namespace APBD_Kolokwium2.Entities;
 
 public class Customer
 {
-    public int Customerid { get; set; }
+    public int CustomerId { get; set; }
     
     [MaxLength(100)]
     public string FirstName { get; set; }
